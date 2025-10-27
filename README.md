@@ -67,6 +67,30 @@ cd frontend
 - **Frontend:** Vercel or Netlify
 - **Backend:** Render or Railway
 
+## Important Notes
+
+⚠️ **ytdl-core Dependency**: YouTube frequently updates their systems, which can break `ytdl-core`. If you encounter issues:
+
+1. **Update ytdl-core**: `npm install ytdl-core@latest`
+2. **Alternative Solution**: Consider using `yt-dlp` with a Node.js wrapper:
+   ```bash
+   npm install yt-dlp-wrap
+   ```
+3. **Check for Updates**: Visit [ytdl-core GitHub](https://github.com/fent/node-ytdl-core) for latest fixes
+
+## Current Status
+
+✅ **Working**:
+- Frontend UI (fully functional)
+- Backend server (running)
+- API endpoints (implemented)
+- Error handling
+- File download mechanism
+
+⚠️ **May Need Updates**:
+- ytdl-core library (depends on YouTube changes)
+- Test with current videos to verify functionality
+
 ## Legal Notice
 
 This application is for educational purposes only. Please respect YouTube's Terms of Service.
